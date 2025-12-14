@@ -36,7 +36,7 @@ Usa unidades correctas (W, kW, kWh, V, A).
 """
 
 model = genai.GenerativeModel(
-    model_name="model_name="gemini-pro", # Modelo rápido y gratuito
+    model_name="gemini-pro", # Modelo rápido y gratuito
     generation_config=generation_config,
     system_instruction=system_instruction,
 )
